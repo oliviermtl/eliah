@@ -30,7 +30,7 @@ export default function IntroductionSeven({ data }) {
                   <Button
                     action={process.env.PUBLIC_URL + "#"}
                     color="dark"
-                    content="More info"
+                    content="Shop Now"
                   />
                 </div>
               </div>
@@ -47,8 +47,8 @@ export default function IntroductionSeven({ data }) {
           />
         </div>
       </div>
-      <div className="introduction-seven__wrapper -bottom">
-        <div className="introduction-seven__wrapper__image">
+      {/*<div className="introduction-seven__wrapper -bottom">
+         <div className="introduction-seven__wrapper__image">
           <img
             src={
               process.env.PUBLIC_URL +
@@ -56,8 +56,8 @@ export default function IntroductionSeven({ data }) {
             }
             alt="Section image"
           />
-        </div>
-        <div className="introduction-seven__wrapper__content">
+        </div> */}
+        {/* <div className="introduction-seven__wrapper__content">
           <div className="container">
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6 ml-auto">
@@ -106,7 +106,7 @@ export default function IntroductionSeven({ data }) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

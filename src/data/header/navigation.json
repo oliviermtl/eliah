@@ -1,17 +1,5 @@
 [
-  {
-    "title": "Home",
-    "to": "/homepages/homepage1",
-    "subMenu": [
-      { "title": "Beauty Salon", "to": "/homepages/homepage1" },
-      { "title": "Makeup Salon", "to": "/homepages/homepage2" },
-      { "title": "Natural Shop", "to": "/homepages/homepage3" },
-      { "title": "Spa Shop", "to": "/homepages/homepage4" },
-      { "title": "Mask Shop", "to": "/homepages/homepage5" },
-      { "title": "Skincare Shop", "to": "/homepages/homepage6" }
-    ]
-  },
-  { "title": "Services", "to": "/other/services" },
+  
   { "title": "About", "to": "/other/about" },
   {
     "title": "Shop",
@@ -41,6 +29,6 @@
       { "title": "Wish list", "to": "/shop/wishlist" }
     ]
   },
-  { "title": "Blog", "to": "/blog" },
+  
   { "title": "Contact", "to": "/other/contact" }
 ]

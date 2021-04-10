@@ -1,5 +1,5 @@
 {
-  "name": "eliah",
+  "name": "eliah-react-nextjs-beauty-salon-cosmetic-ecommerce-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -42,5 +42,7 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^5.4.1",
     "uuid": "^8.2.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

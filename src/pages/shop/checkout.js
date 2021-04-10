@@ -61,7 +61,7 @@ export default function () {
                         name="subcribeNews"
                         ref={register}
                       />
-                      Keep me up to dateon news and exclusive offers
+                      Keep me up to date on news and exclusive offers
                     </label>
                   </div>
                   <div className="checkout__form__shipping">
@@ -132,7 +132,7 @@ export default function () {
                               type="text"
                               name="apartment"
                               ref={register({ required: true })}
-                              placeholder="Apartment, suite, unite ect ( optinal )"
+                              placeholder="Apartment, suite, unite ect ( optional )"
                             />
                           </label>
                           {errors.streetAddress || errors.apartment ? (
@@ -283,7 +283,7 @@ export default function () {
                         </table>
                       </div>
                       <div className="checkout__total__price__payment">
-                        <label className="checkbox-label" htmlFor="payment">
+                        {/* <label className="checkbox-label" htmlFor="payment">
                           <input
                             type="checkbox"
                             id="payment"
@@ -292,7 +292,7 @@ export default function () {
                             ref={register}
                           />
                           Cheque payment
-                        </label>
+                        </label> */}
                         <label className="checkbox-label" htmlFor="paypal">
                           <input
                             type="checkbox"

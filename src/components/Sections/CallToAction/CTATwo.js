@@ -19,7 +19,7 @@ export default function CTATwo() {
           <div className="col-12  ">
             <div className="cta__form">
               <h3>
-                Don’t Wait Any Longer! <br /> Give 55% Off Now!
+                Don’t Wait Any Longer! <br /> Get 55% Off Now!
               </h3>
               <form
                 onSubmit={handleSubmit(onSubmit)}
@@ -82,7 +82,7 @@ export default function CTATwo() {
                         <option value="" hidden>
                           Choose products
                         </option>
-                        {["Product A", "Product B", "Product C"].map(
+                        {["Product A", "Product B", "Product C", "Product D", "Product E"].map(
                           (item, index) => (
                             <option key={index} value={item}>
                               {item}

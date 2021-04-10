@@ -37,7 +37,7 @@ export default function IntroductionNine() {
     <div className="introduction-nine">
       <div className="introduction-nine__logos">
         <div className="container">
-          <Slider {...settings}>
+          {/* <Slider {...settings}>
             {Array.from(Array(7), (e, i) => {
               return (
                 <div key={i} className="slide__item">
@@ -53,7 +53,7 @@ export default function IntroductionNine() {
                 </div>
               );
             })}
-          </Slider>
+          </Slider> */}
         </div>
       </div>
       <div className="container">
@@ -62,7 +62,7 @@ export default function IntroductionNine() {
             New items are <br />
             released weekly.
           </h3>
-          <Button action="#" color="white" content="ALL NEW ITEMS" />
+          <Button action="/shop/grid-3col" color="white" content="ALL NEW ITEMS" />
         </div>
       </div>
     </div>

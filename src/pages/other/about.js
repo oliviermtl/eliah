@@ -18,7 +18,7 @@ export default function () {
         <BreadcrumbItem name="About us" current />
       </Breadcrumb>
       <IntroductionOne data={introductionOneData} />
-      <IntroductionTwo data={introductionTwoData} style={{ marginBottom: 0 }} />
+      {/* <IntroductionTwo data={introductionTwoData} style={{ marginBottom: 0 }} /> */}
       <TestimonialOne
         data={testimonialOneData}
         style={{ backgroundColor: "#fff", marginBottom: 0 }}
