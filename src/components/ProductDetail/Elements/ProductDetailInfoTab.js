@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 
 import Review from "../../Control/Review";
 
-export default function ProductDetailInfoTab({ onReviewSubmit }) {
+export default function ProductDetailInfoTab({ onReviewSubmit, data }) {
   const { register, handleSubmit, errors } = useForm();
   return (
     <div className="product-detail__tab">
@@ -16,10 +16,14 @@ export default function ProductDetailInfoTab({ onReviewSubmit }) {
 
         <TabPanel className="tab__content__item -description">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+            {data.description}
+          </p>
+          <br />
+          <p>
+              <h5>Ingredients</h5>
+              <p>
+                {data.ingredients}
+              </p>
           </p>
         </TabPanel>
         <TabPanel className="tab__content__item -ship">

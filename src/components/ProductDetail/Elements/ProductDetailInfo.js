@@ -103,7 +103,7 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
         <>
           <div className="divider"></div>
           <div className="product-detail__content__tab">
-            <ProductDetailInfoTab onReviewSubmit={onReviewSubmit} />
+            <ProductDetailInfoTab onReviewSubmit={onReviewSubmit} data={data}/>
           </div>
         </>
       )}
